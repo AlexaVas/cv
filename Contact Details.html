@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <center>
+      <strong><h1>Contact Me</h1></strong>
+    </center>
+    <p>My email address: alexandra.vasinova@gmail.com</p>
+    <hr size="3" noshade color="purple" />
+    <br />
+    <form
+      action="mailto:alexandra.vasinova@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label>Your Name:</label>
+      <input type="text" name="Your name" />
+      <p>
+        <label> Your Email:</label>
+        <input type="email" name="Your email" />
+      </p>
+      <p>
+        <label>Chose your preffered date:</label>
+        <input
+          type="date"
+          min="2023-03-01"
+          max="2023-03-31"
+          name="Your date"
+          required
+        />
+      </p>
+      <label>Your Message:</label><br /><br />
+      <textarea name="message" rows="5" cols="33" name="Your message">
+Hey there!</textarea
+      ><br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
